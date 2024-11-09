@@ -1,6 +1,7 @@
 // WorkoutLogForm.jsx
 import React, { useState } from 'react';
 
+const url ="https://fitness-tracker-ocb6.onrender.com"
 const WorkoutLogForm = () => {
   const [workoutData, setWorkoutData] = useState({
     name: '', // Change from exercise to name
